@@ -11,994 +11,1330 @@ public class Main {
         int contadorFalladas = 0;
 
         do {
-            int preguntasPorRonda = 10;
+            int preguntasPorRonda = 110;
             for (int i = 0; i < preguntasPorRonda; i++) {
                 Random random = new Random();
-                int numAleatorio = random.nextInt(82) + 1;
+                int numAleatorio = random.nextInt(110) + 1;
                 System.out.println();
 
                 switch (numAleatorio) {
                     case 1:
-                        System.out.println("is the fifth generation of mobile networks. It is said to be up to 100 times faster than 4G and provide higher speed, lower latency, greater capacity and more reliability. ");
+                        System.out.println("ADSL");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("5G")) {
+                        if (respuesta.equalsIgnoreCase("Asymmetric Digital Subscriber Line")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es 5G");
+                            System.out.println("Incorrecto, la respuesta correcta es Asymmetric Digital Subscriber Line");
                             contadorFalladas++;
                         }
                         break;
                     case 2:
-                        System.out.println("An indication of a network`s capacity. The greater it is, the faster the connection.");
+                        System.out.println("AI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BANDWITH")) {
+                        if (respuesta.equalsIgnoreCase("Artificial Intelligence")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BANDWITH");
+                            System.out.println("Incorrecto, la respuesta correcta es Artificial Intelligence");
                             contadorFalladas++;
                         }
                         break;
                     case 3:
-                        System.out.println(" A form of advertising on the Internet based on an embedded image or gif file into (usually a prominent section of) a web page. In many cases, this is how the content provider is able to pay for the Internet access to supply the content.");
+                        System.out.println("API");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BANNER")) {
+                        if (respuesta.equalsIgnoreCase("Application Programming Interface")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BANNER");
+                            System.out.println("Incorrecto, la respuesta correcta es Application Programming Interface");
                             contadorFalladas++;
                         }
                         break;
                     case 4:
-                        System.out.println("A field dealing with ways to analyze and systematically extract information from data sets that are too large or complex to be dealt with by traditional data-processing software. An example is personalized marketing.");
+                        System.out.println("APU");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BIG DATA")) {
+                        if (respuesta.equalsIgnoreCase("Accelerated Processing Unit")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BIG DATA");
+                            System.out.println("Incorrecto, la respuesta correcta es Accelerated Processing Unit");
                             contadorFalladas++;
                         }
                         break;
                     case 5:
-                        System.out.println("Abbreviation of ‘BInary digiT’. At a basic level, all computer data is just a series of 0s and 1s, each of which is called ‘a bit’.");
+                        System.out.println("AR");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BIT")) {
+                        if (respuesta.equalsIgnoreCase("Augmented Reality")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BIT");
+                            System.out.println("Incorrecto, la respuesta correcta es Augmented Reality");
                             contadorFalladas++;
                         }
                         break;
                     case 6:
-                        System.out.println("Technology that supports digital currency (Bitcoin, Litecoin, Ethereum, and the like) and that allows for distribution of the information, but not copying. That means each individual piece of data can only have one owner, who has the private password (a complex key) to the address on the chain, which is where their ownership is recorded. A block is a record of new transactions. When a block is completed, it’s added to the chain. These blocks are linked using cryptography");
+                        System.out.println("AV");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BLOCKCHAIN")) {
+                        if (respuesta.equalsIgnoreCase("AntiVirus")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BLOCKCHAIN");
+                            System.out.println("Incorrecto, la respuesta correcta es AntiVirus");
                             contadorFalladas++;
                         }
                         break;
                     case 7:
-                        System.out.println("A wireless technology set to replace cables in short-range connections. The term possibly comes from the Viking king who unified Denmark and Norway, as is its logo, which is actually the king’s initials in Nordic Runes.");
+                        System.out.println("BIOS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BLUETOOTH")) {
+                        if (respuesta.equalsIgnoreCase("Basic Input-Output System")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BLUETOOTH");
+                            System.out.println("Incorrecto, la respuesta correcta es Basic Input-Output System");
                             contadorFalladas++;
                         }
                         break;
                     case 8:
-                        System.out.println("A saved link to a particular webpage. Microsoft Internet Explorer calls them ‘favorites.’");
+                        System.out.println("BIT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BOOKMARK")) {
+                        if (respuesta.equalsIgnoreCase("BInary digiT")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BOOKMARK");
+                            System.out.println("Incorrecto, la respuesta correcta es BInary digiT");
                             contadorFalladas++;
                         }
                         break;
                     case 9:
-                        System.out.println("In Computing, to switch a computer on, allowing its operating system and programs to be loaded.");
+                        System.out.println("BSoD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BOOT")) {
+                        if (respuesta.equalsIgnoreCase("Blue Screen of Death")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BOOT");
+                            System.out.println("Incorrecto, la respuesta correcta es Blue Screen of Death");
                             contadorFalladas++;
                         }
                         break;
                     case 10:
-                        System.out.println("In Computing, an event in which the performance of an entire system is severely limited by a single component.");
+                        System.out.println("BTC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BOTTLENECK")) {
+                        if (respuesta.equalsIgnoreCase("BiTCoin")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BOTTLENECK");
+                            System.out.println("Incorrecto, la respuesta correcta es BiTCoin");
                             contadorFalladas++;
                         }
                         break;
                     case 11:
-                        System.out.println("A rather vague term that refers to fast bandwidth somewhere above that of an old dial-up modem.");
+                        System.out.println("BYOD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BROADBAND")) {
+                        if (respuesta.equalsIgnoreCase("Bring Your Own Device")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BROADBAND");
+                            System.out.println("Incorrecto, la respuesta correcta es Bring Your Own Device");
                             contadorFalladas++;
                         }
                         break;
                     case 12:
-                        System.out.println("A program you use to look at, and navigate pages on the World Wide Web. People sometimes refer to them as ‘the Internet’, although they really only provide the means to view pages on the web via a search engine.");
+                        System.out.println("CAPTCHA");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BROWSER")) {
+                        if (respuesta.equalsIgnoreCase("Completely Automated Public Turing test to tell Computers and Humans Apart")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BROWSER");
+                            System.out.println("Incorrecto, la respuesta correcta es Completely Automated Public Turing test to tell Computers and Humans Apart");
                             contadorFalladas++;
                         }
                         break;
                     case 13:
-                        System.out.println("In computing, a connection between components or devices connected to a PC.");
+                        System.out.println("CD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BUS")) {
+                        if (respuesta.equalsIgnoreCase("Compact Disc")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BUS");
+                            System.out.println("Incorrecto, la respuesta correcta es Compact Disc");
                             contadorFalladas++;
                         }
                         break;
                     case 14:
-                        System.out.println("A collection of eight bits. For large numbers, we use various prefixes: Kilo = 103 (or more precisely, 1.24 x 103), Mega = 106, Giga = 109, Tera = 1012, peta = 1015, Exa = 1018, Zetta = 1021, Yotta = 1024, Bronto = 1027 and Geop = 1030.");
+                        System.out.println("CD-ROM");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("BYTE")) {
+                        if (respuesta.equalsIgnoreCase("CD Read-Only Memory")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es BYTE");
+                            System.out.println("Incorrecto, la respuesta correcta es CD Read-Only Memory");
                             contadorFalladas++;
                         }
                         break;
                     case 15:
-                        System.out.println("In a HDD, it is an embedded RAM-like memory that can be accessed very quickly for data (as compared to having to go to the HDD, which is much slower). Also known as ‘Disk Buffer’, the bigger, the more smoothly a HDD will run.");
+                        System.out.println("CEO");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CACHE")) {
+                        if (respuesta.equalsIgnoreCase("Chief Executive Officer")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CACHE");
+                            System.out.println("Incorrecto, la respuesta correcta es Chief Executive Officer");
                             contadorFalladas++;
                         }
                         break;
                     case 16:
-                        System.out.println("In a motherboard, a physical chip sitting somewhere on it that defines how your various components (CPU, RAM, graphics card, and so on) communicate with one another. It defines your motherboard’s most essential capabilities: supported  RAM sticks and speed, supported graphics cards, PCIe lanes and USB ports supported, and so on.");
+                        System.out.println("ChatGPT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CHIPSET")) {
+                        if (respuesta.equalsIgnoreCase("Chat Generative Pre-Trained Transformer")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CHIPSET");
+                            System.out.println("Incorrecto, la respuesta correcta es Chat Generative Pre-Trained Transformer");
                             contadorFalladas++;
                         }
                         break;
                     case 17:
-                        System.out.println("Storing and accessing of data and programs over the Internet instead of on another type of hard drive.");
+                        System.out.println("CLI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CLOUD COMPUTING")) {
+                        if (respuesta.equalsIgnoreCase("Command Line Interface")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CLOUD COMPUTING");
+                            System.out.println("Incorrecto, la respuesta correcta es Command Line Interface");
                             contadorFalladas++;
                         }
                         break;
                     case 18:
-                        System.out.println("When referring to cables, a type of copper cable specially built with a metal shield and other components engineered to block signal interference. It is primarily used by cable TV companies to connect their satellite antennas to customer homes.");
+                        System.out.println("CPU");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("COAXIAL")) {
+                        if (respuesta.equalsIgnoreCase("Central Processing Unit")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es COAXIAL");
+                            System.out.println("Incorrecto, la respuesta correcta es Central Processing Unit");
                             contadorFalladas++;
                         }
                         break;
                     case 19:
-                        System.out.println("Term used to describe text that is written using the protocol of a particular language by a computer programmer.");
+                        System.out.println("DDR");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CODE")) {
+                        if (respuesta.equalsIgnoreCase("Double Data Rate")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CODE");
+                            System.out.println("Incorrecto, la respuesta correcta es Double Data Rate");
                             contadorFalladas++;
                         }
                         break;
                     case 20:
-                        System.out.println("COder/DECoder. Referred to compression technologies that compress and decompress files either of data (ZIP), images (JPEG, GIF, PNG), audio (MP3, AAC) or video (MPEG-2, MOV, MP4, MKV). There are two kinds: lossless (produce the same exact file as the original upon decompression) and lossy.");
+                        System.out.println("DIMM");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CODEC")) {
+                        if (respuesta.equalsIgnoreCase("Dual In-Line Memory Module")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CODEC");
+                            System.out.println("Incorrecto, la respuesta correcta es Dual In-Line Memory Module");
                             contadorFalladas++;
                         }
                         break;
                     case 21:
-                        System.out.println("When referring to computing, a specific instruction given to a computer application to perform some kind of task or function.");
+                        System.out.println("DLC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("COMMAND")) {
+                        if (respuesta.equalsIgnoreCase("DownLoadable Content")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es COMMAND");
+                            System.out.println("Incorrecto, la respuesta correcta es DownLoadable Content");
                             contadorFalladas++;
                         }
                         break;
                     case 22:
-                        System.out.println("A small text file sent to your computer by a website you visited. Although at times useful, they can track your activity.");
+                        System.out.println("DRM");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("COOKIE")) {
+                        if (respuesta.equalsIgnoreCase("Digital Rights Management")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es COOKIE");
+                            System.out.println("Incorrecto, la respuesta correcta es Digital Rights Management");
                             contadorFalladas++;
                         }
                         break;
                     case 23:
-                        System.out.println("Digital or virtual money in which transactions are verified and records maintained by a decentralized system. Often defined as tradable digital assets built on blockchain technology. An example is Bitcoin.");
+                        System.out.println("DVD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CRYPTOCURRENCY")) {
+                        if (respuesta.equalsIgnoreCase("Digital Versatile Disc")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CRYPTOCURRENCY");
+                            System.out.println("Incorrecto, la respuesta correcta es Digital Versatile Disc");
                             contadorFalladas++;
                         }
                         break;
                     case 24:
-                        System.out.println("Any type of illegal activity that is undertaken (or relies heavily) on a computer, like network intrusions, identity theft and the spreading of computer viruses.");
+                        System.out.println("DVI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("CYBERCRIME")) {
+                        if (respuesta.equalsIgnoreCase("Digital Video Interface")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es CYBERCRIME");
+                            System.out.println("Incorrecto, la respuesta correcta es Digital Video Interface");
                             contadorFalladas++;
                         }
                         break;
                     case 25:
-                        System.out.println("Relative to today's computers, information as produced, processed, stored, or transmitted by a computer.");
+                        System.out.println("EOL");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DATA")) {
+                        if (respuesta.equalsIgnoreCase("End Of Life")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DATA");
+                            System.out.println("Incorrecto, la respuesta correcta es End Of Life");
                             contadorFalladas++;
                         }
                         break;
                     case 26:
-                        System.out.println("The gap between those (individuals, households, businesses and geographic areas) who benefit from having a ready access to computers and the Internet, and those who do not.");
+                        System.out.println("ETA");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DIGITAL DIVIDE")) {
+                        if (respuesta.equalsIgnoreCase("Estimated Time of Arrival")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DIGITAL DIVIDE");
+                            System.out.println("Incorrecto, la respuesta correcta es Estimated Time of Arrival");
                             contadorFalladas++;
                         }
                         break;
                     case 27:
-                        System.out.println("A technology in Microsoft’s Windows designed to enhance multimedia experience such as in 3D gaming.");
+                        System.out.println("EULA");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DIRECTX")) {
+                        if (respuesta.equalsIgnoreCase("End-User License Agreement")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DIRECTX");
+                            System.out.println("Incorrecto, la respuesta correcta es End-User License Agreement");
                             contadorFalladas++;
                         }
                         break;
                     case 28:
-                        System.out.println("In Computing, unlike memory, a more permanent store that holds files even when the computer is switched off.");
+                        System.out.println("FAQ");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DISK")) {
+                        if (respuesta.equalsIgnoreCase("Frequently Asked Questions")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DISK");
+                            System.out.println("Incorrecto, la respuesta correcta es Frequently Asked Questions");
                             contadorFalladas++;
                         }
                         break;
                     case 29:
-                        System.out.println("A digital connection based on packetized data transmission that can achieve a higher bandwidth than HDMI cables. Its latest version can support 4K @ 240 Hz and 8K @ 60 Hz.");
+                        System.out.println("FOMO");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DISPLAYPORT")) {
+                        if (respuesta.equalsIgnoreCase("Fear Of Missing Out")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DISPLAYPORT");
+                            System.out.println("Incorrecto, la respuesta correcta es Fear Of Missing Out");
                             contadorFalladas++;
                         }
                         break;
                     case 30:
-                        System.out.println("In Computing, to receive data from a remote system, typically a server. ‘Upload’ is its contrary.");
+                        System.out.println("FSB");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DOWNLOAD")) {
+                        if (respuesta.equalsIgnoreCase("Front Side Bus")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DOWNLOAD");
+                            System.out.println("Incorrecto, la respuesta correcta es Front Side Bus");
                             contadorFalladas++;
                         }
                         break;
                     case 31:
-                        System.out.println("A location, usually in a hard disk partition, labelled with a letter (e.g. CSomrient that is capable of storing and reading information.");
+                        System.out.println("FTP");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DRIVE")) {
+                        if (respuesta.equalsIgnoreCase("File Transfer Protocol")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DRIVE");
+                            System.out.println("Incorrecto, la respuesta correcta es File Transfer Protocol");
                             contadorFalladas++;
                         }
                         break;
                     case 32:
-                        System.out.println("In Computing, a set of files that tells a hardware part how to communicate with a computer.");
+                        System.out.println("FTTH");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("DRIVER")) {
+                        if (respuesta.equalsIgnoreCase("Fiber To The Home")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es DRIVER");
+                            System.out.println("Incorrecto, la respuesta correcta es Fiber To The Home");
                             contadorFalladas++;
                         }
                         break;
                     case 33:
-                        System.out.println("Common way of connecting computers on a network with a wired connection. Typical of local area networks (LANs).");
+                        System.out.println("GIF");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("ETHERNET")) {
+                        if (respuesta.equalsIgnoreCase("Graphics Interchange Format")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es ETHERNET");
+                            System.out.println("Incorrecto, la respuesta correcta es Graphics Interchange Format");
                             contadorFalladas++;
                         }
                         break;
                     case 34:
-                        System.out.println("Also known as ‘repeater’, a hardware device used to improve the wireless signal strength between (usually) a router and distant devices and thus enlarge the range of your WiFi network, but usually at the expense of bandwidth.");
+                        System.out.println("GPU");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("EXTENDER")) {
+                        if (respuesta.equalsIgnoreCase("Graphics Processing Unit")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es EXTENDER");
+                            System.out.println("Incorrecto, la respuesta correcta es Graphics Processing Unit");
                             contadorFalladas++;
                         }
                         break;
                     case 35:
-                        System.out.println("Also known as ‘repeater’, a hardware device used to improve the wireless signal strength between (usually) a router and distant devices and thus enlarge the range of your WiFi network, but usually at the expense of bandwidth.");
+                        System.out.println("GUI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("EXTENDER")) {
+                        if (respuesta.equalsIgnoreCase("Graphical User Interface")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es EXTENDER");
+                            System.out.println("Incorrecto, la respuesta correcta es Graphical User Interface");
                             contadorFalladas++;
                         }
                         break;
                     case 36:
-                        System.out.println("Software that restricts the data allowed to flow through a network. It blocks traffic that is undesirable in some way.");
+                        System.out.println("HD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("FIREWALL")) {
+                        if (respuesta.equalsIgnoreCase("High Definition")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es FIREWALL");
+                            System.out.println("Incorrecto, la respuesta correcta es High Definition");
                             contadorFalladas++;
                         }
                         break;
                     case 37:
-                        System.out.println("A specific class of computer software that provides the low-level control for a device's specific hardware.");
+                        System.out.println("HDD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("FIRMWARE")) {
+                        if (respuesta.equalsIgnoreCase("Hard Disk Drive")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es FIRMWARE");
+                            System.out.println("Incorrecto, la respuesta correcta es Hard Disk Drive");
                             contadorFalladas++;
                         }
                         break;
                     case 38:
-                        System.out.println("In Computing, to alter deliberately a device or component’s firmware to change or update the instruction set.");
+                        System.out.println("HDMI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("FLASH")) {
+                        if (respuesta.equalsIgnoreCase("High-Definition Multimedia Interface")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es FLASH");
+                            System.out.println("Incorrecto, la respuesta correcta es High-Definition Multimedia Interface");
                             contadorFalladas++;
                         }
                         break;
                     case 39:
-                        System.out.println("In Computing, to gain illegal access to a computer network or system. ‘White Hats’ and ‘Black Hats’ are its practitioners.");
+                        System.out.println("HTML");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("HACK")) {
+                        if (respuesta.equalsIgnoreCase("Hyper-Text Mark-up Language")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es HACK");
+                            System.out.println("Incorrecto, la respuesta correcta es Hyper-Text Mark-up Language");
                             contadorFalladas++;
                         }
                         break;
                     case 40:
-                        System.out.println("Hash (symbol # on a phone or computer keyboard) and tag (mark). Symbol used in Twitter social network before a relevant keyword or phrase in their Tweet to categorize those Tweets and help them show more easily in Twitter search.");
+                        System.out.println("I/O");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("HASHTAG")) {
+                        if (respuesta.equalsIgnoreCase("Input/Output")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es HASHTAG");
+                            System.out.println("Incorrecto, la respuesta correcta es Input/Output");
                             contadorFalladas++;
                         }
                         break;
                     case 41:
-                        System.out.println("A comprehensive term for all physical and tangible parts of a PC, as distinguished from the data it contains.");
+                        System.out.println("IaaS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("HARDWARE")) {
+                        if (respuesta.equalsIgnoreCase("Infrastructure as a Service")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es HARDWARE");
+                            System.out.println("Incorrecto, la respuesta correcta es Infrastructure as a Service");
                             contadorFalladas++;
                         }
                         break;
                     case 42:
-                        System.out.println("Intel’s technology to improve CPU performance by dividing its physical cores into virtual cores. AMD’s similar technology is SMT (Simultaneous Multi-Threading).");
+                        System.out.println("ICT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("HYPER-THREADING")) {
+                        if (respuesta.equalsIgnoreCase("Information and Communication Technologies")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es HYPER-THREADING");
+                            System.out.println("Incorrecto, la respuesta correcta es Information and Communication Technologies");
                             contadorFalladas++;
                         }
                         break;
                     case 43:
-                        System.out.println("A global computer network that includes services such as the World Wide Web, email, file transfer protocol (FTP), chat and so on. Also, the wiring that allows computers all over the world to communicate.");
+                        System.out.println("ID10T");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("INTERNET")) {
+                        if (respuesta.equalsIgnoreCase("Eye Dee Ten Tee")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es INTERNET");
+                            System.out.println("Incorrecto, la respuesta correcta es Eye Dee Ten Tee");
                             contadorFalladas++;
                         }
                         break;
                     case 44:
-                        System.out.println("A private, internal Internet specific to an organization or group.");
+                        System.out.println("IDE");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("INTRANET")) {
+                        if (respuesta.equalsIgnoreCase("Integrated Development Environment")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es INTRANET");
+                            System.out.println("Incorrecto, la respuesta correcta es Integrated Development Environment");
                             contadorFalladas++;
                         }
                         break;
                     case 45:
-                        System.out.println("A widely-used programming language for coding web applications which has been a popular choice among developers for over two decades, with millions of Java applications in use today. Java is a multi-platform, object-oriented, and network-centered language, which can be used as a platform in itself, and is best suited for building and running mobile applications, cloud applications and chatbots. Companies such as Pinterest, Google, Airbnb, Uber and Netflix use Java.");
+                        System.out.println("IEEE");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("JAVA")) {
+                        if (respuesta.equalsIgnoreCase("Institute of Electrical and Electronics Engineers")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es JAVA");
+                            System.out.println("Incorrecto, la respuesta correcta es Institute of Electrical and Electronics Engineers");
                             contadorFalladas++;
                         }
                         break;
                     case 46:
-                        System.out.println("Key Changer. A typically illegal software that changes the license key or serial number of a particular piece of proprietary software installed on a computer.");
+                        System.out.println("IoT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("KEYCHAN")) {
+                        if (respuesta.equalsIgnoreCase("The Internet of Things")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es KEYCHAN");
+                            System.out.println("Incorrecto, la respuesta correcta es The Internet of Things");
                             contadorFalladas++;
                         }
                         break;
                     case 47:
-                        System.out.println("Key Generator. Software that generates a product license, such as a serial number, necessary to activate another software. Typically illegitimate, they are distributed by software crackers in the warez scene and many contain malware.");
+                        System.out.println("IP");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("KEYGEN")) {
+                        if (respuesta.equalsIgnoreCase("Internet Protocol")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es KEYGEN");
+                            System.out.println("Incorrecto, la respuesta correcta es Internet Protocol");
                             contadorFalladas++;
                         }
                         break;
                     case 48:
-                        System.out.println("Another word for ‘seed’. In computers, the nucleus of an OS.");
+                        System.out.println("ISO");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("KERNEL")) {
+                        if (respuesta.equalsIgnoreCase("International Organization for Standardization")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es KERNEL");
+                            System.out.println("Incorrecto, la respuesta correcta es International Organization for Standardization");
                             contadorFalladas++;
                         }
                         break;
                     case 49:
-                        System.out.println("In Internet slang, a term describing someone who takes files from a network share, but never shares any of his/her files with anyone. For example, one who participates in P2P/torrents to download all the wanted files but never offers any in return.");
+                        System.out.println("ISP");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("LEECH")) {
+                        if (respuesta.equalsIgnoreCase("Internet Service Provider")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es LEECH");
+                            System.out.println("Incorrecto, la respuesta correcta es Internet Service Provider");
                             contadorFalladas++;
                         }
                         break;
                     case 50:
-                        System.out.println("In Computing, denoting or relating to software or hardware that has been superseded but is difficult to replace because of its wide use. The connector VGA or Windows XP may be some familiar examples.");
+                        System.out.println("IT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("LEGACY")) {
+                        if (respuesta.equalsIgnoreCase("Information Technologies")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es LEGACY");
+                            System.out.println("Incorrecto, la respuesta correcta es Information Technologies");
                             contadorFalladas++;
                         }
                         break;
                     case 51:
-                        System.out.println("A type of computer designed by Apple usually associated with high-powered graphic design.");
+                        System.out.println("JPEG");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MAC")) {
+                        if (respuesta.equalsIgnoreCase("Joint Photographic Experts Group")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MAC");
+                            System.out.println("Incorrecto, la respuesta correcta es Joint Photographic Experts Group");
                             contadorFalladas++;
                         }
                         break;
                     case 52:
-                        System.out.println("Virus, Trojan, worm, keylogger, spyware, spam, junk, ransomware, bloatware, phishing, vishing, etc. are all terms categorized as malware, a general term for all such programs with some malicious intention.");
+                        System.out.println("LAN");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MALWARE")) {
+                        if (respuesta.equalsIgnoreCase("Local Area Network")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MALWARE");
+                            System.out.println("Incorrecto, la respuesta correcta es Local Area Network");
                             contadorFalladas++;
                         }
                         break;
                     case 53:
-                        System.out.println("In Computing, the temporary storage used by a computer to carry out tasks. This is more accurately called RAM.");
+                        System.out.println("LASER");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MEMORY")) {
+                        if (respuesta.equalsIgnoreCase("Light Amplification by Stimulated Emission of Radiation")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MEMORY");
+                            System.out.println("Incorrecto, la respuesta correcta es Light Amplification by Stimulated Emission of Radiation");
                             contadorFalladas++;
                         }
                         break;
                     case 54:
-                        System.out.println("In a WiFi system, a technology usually incorporated in a router that is capable to distribute the signal more evenly and widely across a home in order to enjoy unbroken signal reception.");
+                        System.out.println("LCD");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MESH")) {
+                        if (respuesta.equalsIgnoreCase("Liquid Crystal Display")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MESH");
+                            System.out.println("Incorrecto, la respuesta correcta es Liquid Crystal Display");
                             contadorFalladas++;
                         }
                         break;
                     case 55:
-                        System.out.println("A virtual-reality space in which users can interact with a computer-generated environment and other users. An example is a Fortnite concert.");
+                        System.out.println("LED");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("METAVERSE")) {
+                        if (respuesta.equalsIgnoreCase("Light-Emitting Diode")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es METAVERSE");
+                            System.out.println("Incorrecto, la respuesta correcta es Light-Emitting Diode");
                             contadorFalladas++;
                         }
                         break;
                     case 56:
-                        System.out.println("In Computing, to run software that solves complex math problems in exchange for a certain number of bitcoins.");
+                        System.out.println("MBR");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MINE")) {
+                        if (respuesta.equalsIgnoreCase("Master Boot Record")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MINE");
+                            System.out.println("Incorrecto, la respuesta correcta es Master Boot Record");
                             contadorFalladas++;
                         }
                         break;
                     case 57:
-                        System.out.println("A cooler way to refer to the PCB found in general-purpose PCs and other electronic devices.");
+                        System.out.println("MIPS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MOBO")) {
+                        if (respuesta.equalsIgnoreCase("Million Instructions per Second")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MOBO");
+                            System.out.println("Incorrecto, la respuesta correcta es Million Instructions per Second");
                             contadorFalladas++;
                         }
                         break;
                     case 58:
-                        System.out.println("Short for ‘MOdulator/DEModulator’. A hardware device used to connect a computer or router to a telephone line which provides the Digital Subscriber Line (DSL) service for connection to the Internet, which is often called DSL broadband. It usually has just two ports: one that connects to the outside world, and an Ethernet jack that connects to a computer or a router.");
+                        System.out.println("MOUSE");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MODEM")) {
+                        if (respuesta.equalsIgnoreCase("Manually-Operated User-Selection Equipment")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MODEM");
+                            System.out.println("Incorrecto, la respuesta correcta es Manually-Operated User-Selection Equipment");
                             contadorFalladas++;
                         }
                         break;
                     case 59:
-                        System.out.println("A self-fulfilling prophecy used in technology posed by an Intel’s CEO in 1965 to describe the historical trend of doubling every two years the number of components built in an integrated circuit.");
+                        System.out.println("MP3");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("MOORE'S LAW")) {
+                        if (respuesta.equalsIgnoreCase("MPEG Audio Layer III")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es MOORE'S LAW");
+                            System.out.println("Incorrecto, la respuesta correcta es MPEG Audio Layer III");
                             contadorFalladas++;
                         }
                         break;
                     case 60:
-                        System.out.println("A memory controller that reduces erase and write times in a SSD, thus extending its theoretical life.");
+                        System.out.println("MS-DOS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("NAND")) {
+                        if (respuesta.equalsIgnoreCase("MicroSoft Disk Operating System")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es NAND");
+                            System.out.println("Incorrecto, la respuesta correcta es MicroSoft Disk Operating System");
                             contadorFalladas++;
                         }
                         break;
                     case 61:
-                        System.out.println("Two or more computers that are linked in order to share resources, exchange files, or allow electronic communications. The computers on it may be linked through cables, radio waves or satellites. Two very common types include ‘Local Area Network’ (LAN) for small areas, and ‘Wide Area Network’ (WAN) for larger areas.");
+                        System.out.println("MTBF");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("NETWORK")) {
+                        if (respuesta.equalsIgnoreCase("Mean Time Between Failures")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es NETWORK");
+                            System.out.println("Incorrecto, la respuesta correcta es Mean Time Between Failures");
                             contadorFalladas++;
                         }
                         break;
                     case 62:
-                        System.out.println("In Computing, an individual who is new to something, usually a videogame. Also referred to as a ‘noob’.");
+                        System.out.println("NAS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("NEWBIE")) {
+                        if (respuesta.equalsIgnoreCase("Network-Attached Storage")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es NEWBIE");
+                            System.out.println("Incorrecto, la respuesta correcta es Network-Attached Storage");
                             contadorFalladas++;
                         }
                         break;
                     case 63:
-                        System.out.println("A secret code to have access to a computer, network, account or file.");
+                        System.out.println("NFC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("PASSWORD")) {
+                        if (respuesta.equalsIgnoreCase("Near-Field Communication")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es PASSWORD");
+                            System.out.println("Incorrecto, la respuesta correcta es Near-Field Communication");
                             contadorFalladas++;
                         }
                         break;
                     case 64:
-                        System.out.println("A user of a P2P transmission involved in downloading or uploading of files.");
+                        System.out.println("NFT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("PEER")) {
+                        if (respuesta.equalsIgnoreCase("Non-fungible Token")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es PEER");
+                            System.out.println("Incorrecto, la respuesta correcta es Non-fungible Token");
                             contadorFalladas++;
                         }
                         break;
                     case 65:
-                        System.out.println("Also referred to as P2P. A kind of file sharing transmission in which a group of computers are linked together with equal permissions and responsibilities for processing data. Unlike traditional client-server networking, it is not centralized so no members are designated solely to serve or to receive data.");
+                        System.out.println("NPC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("PEER TO PEER")) {
+                        if (respuesta.equalsIgnoreCase("Non-Playable Character")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es PEER TO PEER");
+                            System.out.println("Incorrecto, la respuesta correcta es Non-Playable Character");
                             contadorFalladas++;
                         }
                         break;
                     case 66:
-                        System.out.println("PICture ELement. The smallest portion of an image that a device is capable of printing or displaying. Its quantity (resolution) is expressed in SD (Standard Definition: 480p), HD (High Def: 720p), FHD (Full HD: 1080p), QHD (Quad HD), 4K, etc.");
+                        System.out.println("NTFS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("PIXEL")) {
+                        if (respuesta.equalsIgnoreCase("New Technology File System")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es PIXEL");
+                            System.out.println("Incorrecto, la respuesta correcta es New Technology File System");
                             contadorFalladas++;
                         }
                         break;
                     case 67:
-                        System.out.println("A computer general-purpose programming language often used to build websites and software, automate tasks, and analyze data. Its design philosophy emphasizes code readability, which is why is the most popular programming language. Large organizations that use Python include Wikipedia, Google, Yahoo!, NASA, Facebook, Amazon, Instagram or Spotify.");
+                        System.out.println("NVMe");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("PYTHON")) {
+                        if (respuesta.equalsIgnoreCase("Non-Volatile Memory express")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es PYTHON");
+                            System.out.println("Incorrecto, la respuesta correcta es Non-Volatile Memory express");
                             contadorFalladas++;
                         }
                         break;
                     case 68:
-                        System.out.println("A type of computation that binds the collective properties of quantum states, such as superposition, interference and entanglement, to perform calculations.");
+                        System.out.println("OC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("QUANTUM COMPUTING")) {
+                        if (respuesta.equalsIgnoreCase("OverClock")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es QUANTUM COMPUTING");
+                            System.out.println("Incorrecto, la respuesta correcta es OverClock");
                             contadorFalladas++;
                         }
                         break;
                     case 69:
-                        System.out.println("A hardware device which directs data between devices in your home (via cables or wirelessly), as well as between those devices and the Internet, to which is connected through a port. They usually provide an internal web page to the LAN for device configuration and status reporting.");
+                        System.out.println("OEM");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("ROUTER")) {
+                        if (respuesta.equalsIgnoreCase("Original Equipment Manufacturer")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es ROUTER");
+                            System.out.println("Incorrecto, la respuesta correcta es Original Equipment Manufacturer");
                             contadorFalladas++;
                         }
                         break;
                     case 70:
-                        System.out.println("A small list of commands that handle a particular task like, for example, producing a message when login a particular username is not available. It may be used to automate processes and minimize the server load by performing small but useful tasks.");
+                        System.out.println("ONT");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("SCRIPT")) {
+                        if (respuesta.equalsIgnoreCase("Optical Network Terminal")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es SCRIPT");
+                            System.out.println("Incorrecto, la respuesta correcta es Optical Network Terminal");
                             contadorFalladas++;
                         }
                         break;
                     case 71:
-                        System.out.println("In Computing, especially in peer-to-peer (P2P) transfers, a computer (or \"peer\") that uploads one or more files on a file sharing network such as BitTorrent.");
+                        System.out.println("OS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("SEED")) {
+                        if (respuesta.equalsIgnoreCase("Operating System")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es SEED");
+                            System.out.println("Incorrecto, la respuesta correcta es Operating System");
                             contadorFalladas++;
                         }
                         break;
                     case 72:
-                        System.out.println("A set of instructions (program) that enable the user to interact with a computer, its hardware, or perform tasks.");
+                        System.out.println("PaaS");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("SOFTWARE")) {
+                        if (respuesta.equalsIgnoreCase("Platform as a Service")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es SOFTWARE");
+                            System.out.println("Incorrecto, la respuesta correcta es Platform as a Service");
                             contadorFalladas++;
                         }
                         break;
                     case 73:
-                        System.out.println("In Computing, service that a company offers to users of technology products, usually in form of help.");
+                        System.out.println("PC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("SUPPORT")) {
+                        if (respuesta.equalsIgnoreCase("Personal Computer")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es SUPPORT");
+                            System.out.println("Incorrecto, la respuesta correcta es Personal Computer");
                             contadorFalladas++;
                         }
                         break;
                     case 74:
-                        System.out.println("In computing, a hardware device that connects multiple devices within a LAN via Ethernet cables. Unlike a hub, it learns the identities of connected devices and then only forwards data to its destination port, thus limiting the number of collisions.");
+                        System.out.println("PCB");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("SWITCH")) {
+                        if (respuesta.equalsIgnoreCase("Printed Circuit Board")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es SWITCH");
+                            System.out.println("Incorrecto, la respuesta correcta es Printed Circuit Board");
                             contadorFalladas++;
                         }
                         break;
                     case 75:
-                        System.out.println("In Computing, file transfer via a special file-sharing protocol (known as P2P) among a decentralized network of users in order to avoid traffic congestion and long waiting times from a server. To maximize traffic speed, files are broken into small pieces and later reunited again into large files in our computers (hence their name). Currently, such files mean more than half of the world’s Internet traffic and, since many of them are copyrighted materials, this practice often evolves into computer piracy.");
+                        System.out.println("PCI");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("TORRENT")) {
+                        if (respuesta.equalsIgnoreCase("Payment Card Industry")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es TORRENT");
+                            System.out.println("Incorrecto, la respuesta correcta es Payment Card Industry");
                             contadorFalladas++;
                         }
                         break;
                     case 76:
-                        System.out.println("In computing, hardware or software which has only the default specifications and no add-ons or changes.");
+                        System.out.println("PCIe");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("VANILLA")) {
+                        if (respuesta.equalsIgnoreCase("Peripheral Component Interconnect Express")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es VANILLA");
+                            System.out.println("Incorrecto, la respuesta correcta es Peripheral Component Interconnect Express");
                             contadorFalladas++;
                         }
                         break;
                     case 77:
-                        System.out.println("Also referred to as ‘The Scene,’ it is a worldwide, underground, organized network of pirate groups specializing in obtaining and illegally releasing digital media for free before their official sale date. Allegedly, the challenge of cracking and reverse engineering complicated software is what makes it attractive for its practitioners, who generally seek recognition and prestige.");
+                        System.out.println("PDF");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("WAREZ")) {
+                        if (respuesta.equalsIgnoreCase("Portable Document Format")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es WAREZ");
+                            System.out.println("Incorrecto, la respuesta correcta es Portable Document Format");
                             contadorFalladas++;
                         }
                         break;
                     case 78:
-                        System.out.println("An engaging online event where a speaker, or small group of speakers, deliver a presentation to a large audience who may participate by submitting questions.");
+                        System.out.println("PEBKAC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("WEBINAR")) {
+                        if (respuesta.equalsIgnoreCase("Problem Exists Between Keyboard and Chair")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es WEBINAR");
+                            System.out.println("Incorrecto, la respuesta correcta es Problem Exists Between Keyboard and Chair");
                             contadorFalladas++;
                         }
                         break;
                     case 79:
-                        System.out.println("An application, or a component of a GUI, that enables a user to perform a function or access a service.");
+                        System.out.println("PLC");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("WIDGET")) {
+                        if (respuesta.equalsIgnoreCase("Power Line Communication")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es WIDGET");
+                            System.out.println("Incorrecto, la respuesta correcta es Power Line Communication");
                             contadorFalladas++;
                         }
                         break;
                     case 80:
-                        System.out.println("Hawaiian word for ‘fast’. A database for creating, browsing, and searching through information.");
+                        System.out.println("PS/2");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("WIKI")) {
+                        if (respuesta.equalsIgnoreCase("Personal System/2")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es WIKI");
+                            System.out.println("Incorrecto, la respuesta correcta es Personal System/2");
                             contadorFalladas++;
                         }
                         break;
                     case 81:
-                        System.out.println("Often wrongly thought as WIreless FIdelity. Brand name for a technology to achieve a wireless connection to a network.");
+                        System.out.println("PSU");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("WIFI")) {
+                        if (respuesta.equalsIgnoreCase("Power Supply Unit")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es WIFI");
+                            System.out.println("Incorrecto, la respuesta correcta es Power Supply Unit");
                             contadorFalladas++;
                         }
                         break;
                     case 82:
-                        System.out.println("A lossless-compression file format created by Phillip Katz in 1989. It is used by compression utilities such as WinZip or 7-Zip.");
+                        System.out.println("PUP");
                         System.out.print("Di la respuesta: ");
                         respuesta = sc.nextLine();
-                        if (respuesta.equalsIgnoreCase("ZIP")) {
+                        if (respuesta.equalsIgnoreCase("Potentially Unwanted Program")) {
                             System.out.println("Correcto");
                             contadorAcertadas++;
                         } else {
-                            System.out.println("Incorrecto, la respuesta correcta es ZIP");
+                            System.out.println("Incorrecto, la respuesta correcta es Potentially Unwanted Program");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 83:
+                        System.out.println("QR CODE");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Quick Response code")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Quick Response code");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 84:
+                        System.out.println("RAID");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Redundant Array of Independent Disks")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Redundant Array of Independent Disks");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 85:
+                        System.out.println("RAM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Random-Access Memory")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Random-Access Memory");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 86:
+                        System.out.println("RJ45");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Registered Jack-45")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Registered Jack-45");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 87:
+                        System.out.println("RMA");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Return Merchandise Authorization")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Return Merchandise Authorization");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 88:
+                        System.out.println("ROM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Read-Only Memory")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Read-Only Memory");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 89:
+                        System.out.println("RTFM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Read The F*** Manual")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Read The F*** Manual");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 90:
+                        System.out.println("SaaS");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Software as a Service")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Software as a Service");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 91:
+                        System.out.println("SATA");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Serial Advanced Technology Attachment")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Serial Advanced Technology Attachment");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 92:
+                        System.out.println("SEO");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Search Engine Optimization")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Search Engine Optimization");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 93:
+                        System.out.println("SMART");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Self-Monitoring Analysis And Reporting Technology")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Self-Monitoring Analysis And Reporting Technology");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 94:
+                        System.out.println("SO-DIMM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Small Outline Dual In-Line Memory Module")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Small Outline Dual In-Line Memory Module");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 95:
+                        System.out.println("SPOF");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Single Point of Failure")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Single Point of Failure");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 96:
+                        System.out.println("SSD");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Solid State Drive")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Solid State Drive");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 97:
+                        System.out.println("TBW");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("TeraBytes Written")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es TeraBytes Written");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 98:
+                        System.out.println("TDP");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Thermal Design Power")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Thermal Design Power");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 99:
+                        System.out.println("TPM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Trusted Platform Module")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Trusted Platform Module");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 100:
+                        System.out.println("UEFI");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Unified Extensible Firmware Interface")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Unified Extensible Firmware Interface");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 101:
+                        System.out.println("UPC BARCODE");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Universal Product Code")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Universal Product Code");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 102:
+                        System.out.println("UPS");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Uninterruptible Power Supply")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Uninterruptible Power Supply");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 103:
+                        System.out.println("USB");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Universal Serial Bus")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Universal Serial Bus");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 104:
+                        System.out.println("VGA");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Video Graphics Array")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Video Graphics Array");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 105:
+                        System.out.println("VPN");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Virtual Private Network")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Virtual Private Network");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 106:
+                        System.out.println("VR");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Virtual Reality")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Virtual Reality");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 107:
+                        System.out.println("VRAM");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Video Random Access Memory")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Video Random Access Memory");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 108:
+                        System.out.println("WIMP");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("Windows, Icons, Menus and Pointer")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es Windows, Icons, Menus and Pointer");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 109:
+                        System.out.println("WPS");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("WiFi Protected Setup")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es WiFi Protected Setup");
+                            contadorFalladas++;
+                        }
+                        break;
+                    case 110:
+                        System.out.println("WWW");
+                        System.out.print("Di la respuesta: ");
+                        respuesta = sc.nextLine();
+                        if (respuesta.equalsIgnoreCase("World Wide Web")) {
+                            System.out.println("Correcto");
+                            contadorAcertadas++;
+                        } else {
+                            System.out.println("Incorrecto, la respuesta correcta es World Wide Web");
                             contadorFalladas++;
                         }
                         break;
